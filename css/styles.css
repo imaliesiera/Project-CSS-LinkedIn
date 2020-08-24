@@ -2,8 +2,7 @@
 -------------------------------------------*/
 body {
   color: rgb(0, 7, 44);
-  width: 960px;
-  margin: 0 auto;
+  margin: 0px;
 }
 img {
   width: 300px;
@@ -13,30 +12,61 @@ a {
 }
 a:hover {
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
-
+h1{
+     margin: 0px;
+ }
+ h2{
+     margin: 0px;
+ }
 /*Profile
 -------------------------------------------*/
 header {
   background-color: #df4c73;
   color: #ffffffd3;
 }
+.content-wrap {
+  background-color: #df4c73;
+  margin: 0 auto;
+  width: 960px;
+  padding: 60px 0px;
+}
 
 /*Projects
 -------------------------------------------*/
 .projects {
+  margin: 0 auto;
+  background-color: #e2f0f9;
+  margin: 0 auto;
+  width: 960px;
+  padding: 60px 0px;
+}
+.projects-content {
   background-color: #e2f0f9;
 }
-.projects a{
-    padding: 8px;
-    color:rgb(187, 246, 248);
-    background-color: rgb(2, 140, 144);
-    border-radius: 6px;
+.projects a {
+}
+.projects .btn {
+  padding: 8px;
+  color: rgb(187, 246, 248);
+  background-color: rgb(2, 140, 144);
+  border-radius: 6px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  color: rgba(197, 255, 60, 0.8);
 }
 
 /*Work Experience
 -------------------------------------------*/
 .work-experience {
+  background-color: #b0dde4;
+  margin: 0 auto;
+  width: 960px;
+  padding: 60px 0px;
+}
+.work-content {
   background-color: #b0dde4;
 }
 
@@ -45,12 +75,21 @@ header {
 .education {
   background-color: #286fb4;
   color: #ffffffb6;
+  margin: 0 auto;
+  width: 960px;
+  padding: 60px 0px;
+}
+.education-content {
+  background-color: #286fb4;
 }
 
 /*Contact Info
 -------------------------------------------*/
 footer {
   background-color: #ffffff;
+  margin: 0 auto;
+  width: 960px;
+  padding: 60px 0px;
 }
 footer a {
   color: rgb(223, 0, 175);
