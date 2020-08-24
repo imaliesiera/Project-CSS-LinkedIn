@@ -1,43 +1,40 @@
 /*Global styles
 -------------------------------------------*/
-body{
-color:rgb(0, 7, 44);
+body {
+  color: rgb(0, 7, 44);
 }
 img {
-    width: 300px;
+  width: 300px;
 }
-
-
-
-
 
 /*Profile
 -------------------------------------------*/
 header {
-    background-color: rgb(234, 204, 246);
+  background-color: #DF4C73;
+  color: #ffffffd3;
 }
 
-
-
-
-
+/*Projects
+-------------------------------------------*/
+.projects {
+  background-color: #E2F0F9;
+}
 
 /*Work Experience
 -------------------------------------------*/
-
-
-
-
-
+.work-experience {
+  background-color: #B0DDE4;
+}
 
 /*Education
 -------------------------------------------*/
-
-
-
-
-
-
+.education {
+  background-color: #286FB4;
+  color: #ffffffb6;
+}
 
 /*Contact Info
 -------------------------------------------*/
+footer {
+  background-color: #FFFFFF;
+}
