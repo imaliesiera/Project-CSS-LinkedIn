@@ -2,39 +2,58 @@
 -------------------------------------------*/
 body {
   color: rgb(0, 7, 44);
+  width: 960px;
+  margin: 0 auto;
 }
 img {
   width: 300px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
 }
 
 /*Profile
 -------------------------------------------*/
 header {
-  background-color: #DF4C73;
+  background-color: #df4c73;
   color: #ffffffd3;
 }
 
 /*Projects
 -------------------------------------------*/
 .projects {
-  background-color: #E2F0F9;
+  background-color: #e2f0f9;
+}
+.projects a{
+    padding: 8px;
+    color:rgb(187, 246, 248);
+    background-color: rgb(2, 140, 144);
+    border-radius: 6px;
 }
 
 /*Work Experience
 -------------------------------------------*/
 .work-experience {
-  background-color: #B0DDE4;
+  background-color: #b0dde4;
 }
 
 /*Education
 -------------------------------------------*/
 .education {
-  background-color: #286FB4;
+  background-color: #286fb4;
   color: #ffffffb6;
 }
 
 /*Contact Info
 -------------------------------------------*/
 footer {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+}
+footer a {
+  color: rgb(223, 0, 175);
+  background-color: aqua;
+  text-decoration: none;
 }
