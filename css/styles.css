@@ -3,12 +3,15 @@
 body {
   color: rgb(0, 7, 44);
   margin: 0px;
-  font-family: 'Cutive Mono', monospace;
-  font-size: 15px; 
+  font-family: "Cutive Mono", monospace;
+  font-size: 15px;
   line-height: 1.5;
 }
 img {
   width: 300px;
+}
+.profile-pic {
+  width: 150px;
 }
 a {
   text-decoration: none;
@@ -20,14 +23,17 @@ a:hover {
 h1 {
   font-size: 100px;
   line-height: 1;
+  display: flex;
+  justify-content: space-between;
 }
 h2 {
   font-size: 45px;
 }
-h1, h2 {
-    font-family: 'Amita', cursive;
-    font-weight: 400;
-    margin: 0;
+h1,
+h2 {
+  font-family: "Amita", cursive;
+  font-weight: 400;
+  margin: 0;
 }
 /*Profile
 -------------------------------------------*/
@@ -54,8 +60,7 @@ header {
 .projects-content {
   background-color: #e2f0f9;
 }
-.projects a {
-}
+
 .projects .btn {
   padding: 8px;
   color: rgb(187, 246, 248);
@@ -104,4 +109,8 @@ footer a {
   color: rgb(223, 0, 175);
   background-color: aqua;
   text-decoration: none;
+  /* display: inline-block; */
+}
+footer li{
+display: inline-block;
 }
