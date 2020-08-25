@@ -3,6 +3,9 @@
 body {
   color: rgb(0, 7, 44);
   margin: 0px;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 15px; 
+  line-height: 1.5;
 }
 img {
   width: 300px;
@@ -14,12 +17,18 @@ a:hover {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-h1{
-     margin: 0px;
- }
- h2{
-     margin: 0px;
- }
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Amita', cursive;
+    font-weight: 400;
+    margin: 0;
+}
 /*Profile
 -------------------------------------------*/
 header {
