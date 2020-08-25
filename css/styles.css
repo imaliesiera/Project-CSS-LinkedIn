@@ -1,5 +1,14 @@
 /*Global styles
 -------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*. *:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   color: rgb(0, 7, 44);
   margin: 0px;
@@ -18,7 +27,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 h1 {
   font-size: 100px;
@@ -35,6 +44,7 @@ h2 {
   font-weight: 400;
   margin: 0;
 }
+
 /*Profile
 -------------------------------------------*/
 header {
@@ -57,6 +67,12 @@ header {
   width: 960px;
   padding: 60px 0px;
 }
+
+.projects img {
+  margin-right: 20px;
+  padding: 25px 0;
+}
+
 .projects-content {
   background-color: #e2f0f9;
 }
@@ -70,6 +86,13 @@ header {
 }
 .projects .btn:hover {
   color: rgba(197, 255, 60, 0.8);
+}
+.projects h3 {
+  margin-top: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 400px;
 }
 
 /*Work Experience
@@ -104,13 +127,13 @@ footer {
   margin: 0 auto;
   width: 960px;
   padding: 60px 0px;
+  text-align: center;
 }
 footer a {
   color: rgb(223, 0, 175);
-  background-color: aqua;
   text-decoration: none;
-  /* display: inline-block; */
+  padding: 15px;
 }
-footer li{
-display: inline-block;
+footer li {
+  display: inline-block;
 }
