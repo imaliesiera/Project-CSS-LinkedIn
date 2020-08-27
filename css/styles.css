@@ -53,9 +53,7 @@ h3 {
 .education-content h3 ~ p, .work-experience h3 ~ p{
   margin: 0;
 }
-
-
-
+  
 /*Profile
 -------------------------------------------*/
 header {
@@ -114,15 +112,20 @@ header {
   margin: 0 auto;
   width: 960px;
   padding: 60px 0px;
+  
 }
 .work-content {
   background-color: #b0dde4;
+  
 }
 .job-item{
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 20px;
+  border-bottom: 1px dashed #343434;
+  padding: 25px, 0;
 }
+
 
 /*Education
 -------------------------------------------*/
