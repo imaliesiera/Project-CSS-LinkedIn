@@ -63,7 +63,7 @@ header {
 .content-wrap {
   background-color: #df4c73;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   padding: 60px 0px;
 }
 
@@ -73,7 +73,7 @@ header {
   margin: 0 auto;
   background-color: #e2f0f9;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   padding: 60px 0px;
 }
 
@@ -110,7 +110,7 @@ header {
 .work-experience {
   background-color: #b0dde4;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   padding: 60px 0px;
   
 }
@@ -133,7 +133,7 @@ header {
   background-color: #286fb4;
   color: #ffffffb6;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   padding: 60px 0px;
 }
 .education-content {
@@ -145,7 +145,7 @@ header {
 footer {
   background-color: #ffffff;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   padding: 60px 0px;
   text-align: center;
 }
